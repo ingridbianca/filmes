@@ -27,7 +27,8 @@ export class ListaFilmesComponent implements OnInit {
           'tipo': filme.Type,
           'poster': filme.Poster
         }
-        console.log(film);
+
+        this.listaFilmes.push(film);
       });
     });
   }
